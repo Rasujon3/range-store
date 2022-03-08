@@ -289,4 +289,13 @@ const updateTotal = () => {
   // setInnerText("grand-total", grandTotal);
 };
 
+// Buy now btn handle
+const detailBtnHandler = () => {
+  setInnerText("total-Products", 0);
+  setInnerText("price", 0);
+  setInnerText("delivery-charge", 0);
+  setInnerText("total-tax", 0);
+  setInnerText("grand-total", 0);
+};
+
 loadProducts();
